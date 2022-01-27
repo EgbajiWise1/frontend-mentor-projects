@@ -5,12 +5,18 @@
     --color-dark-blue: hsl(218, 44%, 22%);
 }
 
+@font-face {
+    font-family: OutFit;
+    src: url('./design/Outfit-Regular.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: var(--color-light-grey);
     font-size: 15px;
     height: 100vh;
+    font-family: OutFit;
 }
 
 main {
