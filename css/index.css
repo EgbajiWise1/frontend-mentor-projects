@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px rgb(161, 157, 157);
+}
+
+li:active {
+    transform: scale(.98);
+}
